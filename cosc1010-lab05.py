@@ -119,12 +119,12 @@ numbers = [-61, -76, 94, 21, 97, -4, 21, 56, -26, 9, 100, 56, -7, -32, 60, -68, 
 pos_count = 0
 neg_count = 0
 zero_count = 0
-for numbers in numbers:
-    if numbers >= 0:
+for number in numbers:
+    if number >= 0:
         pos_count += 1
-    if numbers < 0:
+    if number < 0:
         neg_count +=1
-    if numbers == 0:
+    if number == 0:
         zero_count +=1
 
 print(f'There are {pos_count} positive numbers')
